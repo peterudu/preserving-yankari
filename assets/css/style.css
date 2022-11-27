@@ -24,6 +24,7 @@ h1, h2, h3 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -76,4 +77,25 @@ h1, h2, h3 {
     height: 770px;
     width: 100%;
     background-color: aquamarine;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.network-links {
+    text-align: center;
+}
+
+.network-links > li {
+    display: inline;
+}
+
+.network-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #404040;
 }
