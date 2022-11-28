@@ -79,44 +79,59 @@ h1 {
     border-bottom: 1px solid #404040;
 }
 
+/* hero image and cover text*/
 
-/* hero image */
-
-#hero-exterior {
+#hero-extern {
     height: 600px;
     width: 100%;
     overflow: hidden;
 }
 
-#hero-img {
-    height: 770px;
+#hero-image {
+    height: 600px;
     width: 100%;
-    background: url("../images/hero-img.jpg") no-repeat center center;
+    background: url('../images/elephant-crossing-road.jpg') no-repeat center center;
     background-size: cover;
+
+    /* animates zum effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
-/* section intro-yankari */
-#intro-yankari {
-    height: 770px;
-    width: 100%;
-    background-color: aquamarine;
+/* creates the level of zoom for hero image */
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
 
 /* footer */
 
-footer {
-    height: 150px;
-}
+/* footer */
 
-.network-links {
+ footer {
+    height: 150px;
+} 
+
+.social-networks {
     text-align: center;
 }
 
-.network-icons > li {
+.social-networks > li {
     display: inline;
 }
 
-.network-icons i {
+.social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
