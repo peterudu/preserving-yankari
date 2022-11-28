@@ -6,7 +6,23 @@
     border: none;
 }
 
+.item-header { grid-area: top; }
+.item-hero { grid-area: hero; }
+.item-section-intro { grid-area: section1; }
+.item-section-benefits { grid-area: section2; }
+.item-section-theats { grid-area: section3; }
+.item-footer { grid-area: bottom; }
+
 body {
+    display: grid;
+    grid-template-areas:
+    'top'
+    'hero'
+    'section1'
+    'section2'
+    'section3'
+    'bottom';
+
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #404040;
@@ -14,17 +30,27 @@ body {
 
 /* heading and logo */
 
-h1, h2, h3 {
-    font-weight: 400;
-    text-transform: uppercase;
+header {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 1em;
+}
+
+header a {
+    text-decoration: none;
+}
+
+h1 {
     letter-spacing: 4px;
     color: #000;
 }
 
 #logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #000;
+    font-size: 230%;
 }
 
 /* navigation links */
@@ -32,13 +58,9 @@ h1, h2, h3 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-}
+} 
 
-#menu, #logo {
-    line-height: 75px;
-}
-
-#menu li{
+#menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
@@ -50,12 +72,13 @@ h1, h2, h3 {
 }
 
 #menu a:hover {
-    border-bottom:1px solid #404040;
+    border-bottom: 1px solid #404040;
 }
 
 .active {
     border-bottom: 1px solid #404040;
 }
+
 
 /* hero image */
 
@@ -89,11 +112,11 @@ footer {
     text-align: center;
 }
 
-.network-links > li {
+.network-icons > li {
     display: inline;
 }
 
-.network-links i {
+.network-icons i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
