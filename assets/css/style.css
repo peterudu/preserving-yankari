@@ -135,3 +135,28 @@ footer {
     padding: 5%;
     color: #404040;
 }
+
+/* gallery */
+#pictures {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#pictures > img {
+    width: 100%;
+} 
+
+
+/* media queries */
+#pictures {
+    column-count: 3;
+}
+
+/* for small screen sizes 800px and below */
+@media screen and (max-width: 800px) {
+    #pictures {
+        column-count: 2;
+    }
+}
