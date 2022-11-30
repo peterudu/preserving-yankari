@@ -1,84 +1,99 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!-- <style>
+        .form-section {
+        clear: left;
+        background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 900px;
+        }
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Challenges facing Yankari National Park and how contributors can help sustain its existence">
-    <meta name="keywords" content="preserving yankari, yankari national park">
+        .signup-form {
+            margin: 150px 10% 0 0;
+            color: #404040;
+            max-width: 400
+        }
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Preserving Yankari</title>
-</head>
-
-<body>
-
-    <div class="item-header">
-        <header>
-            <a href="index.html">
-                <h1 id="logo">Preserving Yankari</h1>
-            </a>
-            <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="signup.html" class="active">Sign Up</a>
-                    </li>
-                    <li>
-                        <a href="gallery.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    </div>
-
-    <section class="form-section">
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2>Sign up to join the Yankari Friends!</h2>
-            <label for="firstname">First Name</label>
-            <input id="firstname" name="first_name" type="text" required>
-
-            <label for="lastname">Last Name</label>
-            <input id="lastname" name="last_name" type="text" required>
-
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" required>
-
-            <label for="newsletter">Want only monthly newsletter</label>
-            <input type="radio" id="newsletter" name="receive_newsletter" value="newsletter" required>
-            <label for="activeroll">Want active roll at Yankari</label>
-            <input type="radio" id="activeroll" name="active_roll" value="activeroll" required>
-            <label for="none">No newsletter nor active roll</label>
-            <input type="radio" id="none" name="no_roll" value="none" required>
-
-            <input class="interest-button" type="submit" value="Submit">
-        </form>
-    </section>
-
-    <footer>
-        <ul class="social-networks">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-            </li>
-            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-            </li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
-
-    <script src="https://kit.fontawesome.com/ce6f316a92.js" crossorigin="anonymous"></script>
-    </div>
-
-</body>
-
-</html>
+    </style> -->
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Preserving Yankari</title>
+    </head>
+    
+    <body>
+        <div class="grid-container">
+            <div class="item-header">
+                <header id="head-wrapper">
+                    <a href="index.html">
+                        <h1 id="logo">Preserving Yankari</h1>
+                    </a>
+                    <nav>
+                        <ul id="menu">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="signup.html" class="active">Sign Up</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+    <body>
+    
+    
+    
+        <section class="form-section">
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                <h2>Sign up to join the Yankari Friends!</h2>
+                <label for="firstname">First Name</label>
+                <input id="firstname" name="first_name" type="text" required>
+    
+                <label for="lastname">Last Name</label>
+                <input id="lastname" name="last_name" type="text" required>
+    
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required>
+    
+                <label for="newsletter">Want only monthly newsletter</label>
+                <input type="radio" id="newsletter" name="receive_newsletter" value="newsletter" required>
+                <label for="activeroll">Want active roll at Yankari</label>
+                <input type="radio" id="activeroll" name="active_roll" value="activeroll" required>
+                <label for="none">No newsletter nor active roll</label>
+                <input type="radio" id="none" name="no_roll" value="none" required>
+    
+                <input class="interest-button" type="submit" value="Submit">
+            </form>
+        </section>
+    
+        <footer>
+            <ul class="social-networks">
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+                </li>
+                <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </footer>
+    
+        <script src="https://kit.fontawesome.com/ce6f316a92.js" crossorigin="anonymous"></script>
+        </div>
+    
+    </body>
+    
+    </html>
