@@ -6,22 +6,22 @@
     border: none;
 }
 
-.item-header { grid-area: top; }
+.item-header { grid-area: header; }
 .item-hero { grid-area: hero; }
-.item-section-intro { grid-area: section1; }
-.item-section-benefits { grid-area: section2; }
-.item-section-theats { grid-area: section3; }
-.item-footer { grid-area: bottom; }
+.item-section1 { grid-area: intro; }
+.item-section2 { grid-area: benefits; }
+.item-section3 { grid-area: threats; }
+.item-footer { grid-area: footer; }
 
-body {
+.grid-container {
     display: grid;
     grid-template-areas:
-    'top'
+    'header'
     'hero'
-    'section1'
-    'section2'
-    'section3'
-    'bottom';
+    'intro'
+    'benefits'
+    'threats'
+    'footer';
 
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -32,26 +32,24 @@ body {
 
 header {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    /* align-items: center; */
-    padding: 1em;
+    align-items: center;
+    /* align-content: center; */
+    padding: 2em;
 }
 
 header a {
     text-decoration: none;
 }
 
-h1 {
-    letter-spacing: 4px;
-    color: #000;
-}
-
 #logo {
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #000;
-    font-size: 230%;
-}
+    font-size: 200%;
+  } 
 
 /* navigation links */
 
@@ -61,15 +59,14 @@ h1 {
 } 
 
 #menu li {
-    float: right;
     list-style-type: none;
     margin-right: 30px;
+    display: inline;
 }
 
 #menu a {
-    text-decoration: none;
     color: inherit;
-}
+} 
 
 #menu a:hover {
     border-bottom: 1px solid #404040;
@@ -94,9 +91,9 @@ h1 {
     background-size: cover;
 
     /* animates zum effect on loading page */
-    animation-name: hero-zoom;
+    /* animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
 
 /* creates the level of zoom for hero image */
@@ -112,6 +109,145 @@ h1 {
 
 #cover-text, #cover-text h2 {
     color: #fff;
+}
+
+/* item-section1 */
+
+.right-card { grid-area: rightcard; }
+.middle-card { grid-area: middlecard; }
+.left-card { grid-area: leftcard; }
+
+.item-section1 {
+    display: grid;
+    max-height: 600px;
+    width: 100%;
+    grid-template-areas:
+        'rightcard'
+        'middlecard'
+        'leftcard';
+    margin-bottom: 155px;    
+}
+
+.item-section1 span {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/* .item-section1 right-card */
+.right-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.right-card .item {
+    max-width: 30%;
+}
+
+.item img {
+    max-width: 100%;
+}
+
+/* item-section1 middle-card */
+
+.middle-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.middle-card .item {
+    max-width: 30%;
+}
+
+/* item-section1 left-card */
+.left-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 1rem;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.left-card .item {
+    max-width: 30%;
+}
+
+.item-section1 span {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/* item-section2 */
+
+.card-around1 { grid-area: cardaround1 }
+.card-around2 { grid-area: cardaround2}
+
+.item-section2 {
+    display: grid;
+    max-height: 400px;
+    width: 100%;
+    grid-template-areas:
+        'cardaround1'
+        'cardaround2';
+    margin-bottom: 150px;
+    margin-top: 30px;
+}
+
+.item-section2 span {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+/* .item-section2 card-around1 */
+
+.card-around1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.card-around1 .item {
+    max-width: 30%;
+}
+
+.item img {
+    max-width: 100%;
+}
+
+/* .item-section2 card-around2 */
+.card-around2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.card-around1 .item {
+    max-width: 30%;
+}
+
+.item img {
+    max-width: 100%;
 }
 
 
@@ -135,6 +271,7 @@ footer {
     padding: 5%;
     color: #404040;
 }
+
 
 /* gallery */
 #pictures {
@@ -160,3 +297,6 @@ footer {
         column-count: 2;
     }
 }
+
+
+

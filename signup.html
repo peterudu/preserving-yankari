@@ -14,6 +14,7 @@
 </head>
 
 <body>
+
     <div class="item-header">
         <header>
             <a href="index.html">
@@ -22,10 +23,10 @@
             <nav>
                 <ul id="menu">
                     <li>
-                        <a href="signup.html">Sign Up</a>
+                        <a href="signup.html" class="active">Sign Up</a>
                     </li>
                     <li>
-                        <a href="gallery.html" class="active">Gallery</a>
+                        <a href="gallery.html">Gallery</a>
                     </li>
                     <li>
                         <a href="index.html">Home</a>
@@ -35,19 +36,27 @@
         </header>
     </div>
 
-    <section id="pictures">
-        <img src="assets/images/hippos.jpg" alt="Hippopotamus swimming in water">
-        <img src="assets/images/hyena.jpg" alt="Hyena scavenging foodl at the park">
-        <img src="assets/images/nigerian-flag.png" alt="Nigerian national flag">
-        <img src="assets/images/crocodile.jpg" alt="Crocodile with the head out of water">
-        <img src="assets/images/red-hartebeest.jpg" alt="A large red-hartebeest antilope">
-        <img src="assets/images/people.jpeg" alt="A group of people visiting the park">
-        <img src="assets/images/village-house.jpg" alt="Village house near the park">
-        <img src="assets/images/leopard.jpg" alt="A leopard sitting on a tree">
-        <img src="assets/images/herd-elephants.jpg" alt="A herd of african elephants">
-        <img src="assets/images/baboon.jpg" alt="A baboon family">
-        <img src="assets/images/guinea-fowl.jpg" alt="A wild guinea fowl">
-        <img src="assets/images/lion.jpg" alt="A lion">
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Sign up to join the Yankari Friends!</h2>
+            <label for="firstname">First Name</label>
+            <input id="firstname" name="first_name" type="text" required>
+
+            <label for="lastname">Last Name</label>
+            <input id="lastname" name="last_name" type="text" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+
+            <label for="newsletter">Want only monthly newsletter</label>
+            <input type="radio" id="newsletter" name="receive_newsletter" value="newsletter" required>
+            <label for="activeroll">Want active roll at Yankari</label>
+            <input type="radio" id="activeroll" name="active_roll" value="activeroll" required>
+            <label for="none">No newsletter nor active roll</label>
+            <input type="radio" id="none" name="no_roll" value="none" required>
+
+            <input class="interest-button" type="submit" value="Submit">
+        </form>
     </section>
 
     <footer>
@@ -68,6 +77,8 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/ce6f316a92.js" crossorigin="anonymous"></script>
+    </div>
+
 </body>
 
 </html>
