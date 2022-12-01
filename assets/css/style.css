@@ -91,9 +91,9 @@ header a {
     background-size: cover;
 
     /* animates zum effect on loading page */
-    /* animation-name: hero-zoom;
+    animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards; */
+    animation-fill-mode: forwards;
 }
 
 /* creates the level of zoom for hero image */
@@ -210,62 +210,21 @@ header a {
     font-weight: 400;
 }
 
-
-/* .item-section2 card-around1 */
-
-.card-around1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-.card-around1 .item {
-    max-width: 30%;
-}
-
-.item img {
-    max-width: 100%;
-}
-
-/* .item-section2 card-around2 */
-.card-around2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-.card-around1 .item {
-    max-width: 30%;
-}
-
-.item img {
-    max-width: 100%;
-}
-
-
 /* footer */
 
 footer {
     height: 150px;
 } 
 
-.social-networks {
+.footer-networks {
     text-align: center;
 }
 
-.social-networks > li {
+.footer-networks > li {
     display: inline;
 }
 
-.social-networks i {
+.footer-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
@@ -298,5 +257,38 @@ footer {
     }
 }
 
+/* for medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    #menu {
+        /* clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px; */
+    }
+}
 
 
+/* .item-section1 right-card */
+
+/* @media screen and (max-width: 800px) {
+    .right-card, .middle-card, .left-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    }
+} */
+
+@media screen and (max-width: 450px) {
+    .right-card, .middle-card, .left-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    }
+}
