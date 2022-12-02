@@ -9,8 +9,6 @@
 .item-header { grid-area: header; }
 .item-hero { grid-area: hero; }
 .item-section1 { grid-area: intro; }
-.item-section2 { grid-area: benefits; }
-.item-section3 { grid-area: threats; }
 .item-footer { grid-area: footer; }
 
 .grid-container {
@@ -19,8 +17,6 @@
     'header'
     'hero'
     'intro'
-    'benefits'
-    'threats'
     'footer';
 
     font-family: 'Roboto', sans-serif;
@@ -189,27 +185,6 @@ header a {
     font-weight: 400;
 }
 
-/* item-section2 */
-
-.card-around1 { grid-area: cardaround1 }
-.card-around2 { grid-area: cardaround2}
-
-.item-section2 {
-    display: grid;
-    max-height: 400px;
-    width: 100%;
-    grid-template-areas:
-        'cardaround1'
-        'cardaround2';
-    margin-bottom: 150px;
-    margin-top: 30px;
-}
-
-.item-section2 span {
-    text-transform: uppercase;
-    font-weight: 400;
-}
-
 /* footer */
 
 footer {
@@ -257,30 +232,6 @@ footer {
     }
 }
 
-/* for medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-    #menu {
-        /* clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px; */
-    }
-}
-
-
-/* .item-section1 right-card */
-
-/* @media screen and (max-width: 800px) {
-    .right-card, .middle-card, .left-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    }
-} */
 
 @media screen and (max-width: 450px) {
     .right-card, .middle-card, .left-card {
@@ -292,6 +243,8 @@ footer {
     padding-right: 1em;
     }
 }
+
+
 /* .form-section */
 
 .form-section {
