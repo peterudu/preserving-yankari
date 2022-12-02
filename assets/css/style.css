@@ -32,7 +32,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    /* align-content: center; */
+    align-items: center;
     padding: 2em;
 }
 
@@ -103,9 +103,6 @@ header a {
     }
 }
 
-#cover-text, #cover-text h2 {
-    color: #fff;
-}
 
 /* item-section1 */
 
@@ -121,12 +118,14 @@ header a {
         'rightcard'
         'middlecard'
         'leftcard';
-    margin-bottom: 155px;    
+    margin-bottom: 400px;    
 }
 
 .item-section1 span {
     text-transform: uppercase;
     font-weight: 400;
+    display: block;
+    text-align: center;
 }
 
 /* .item-section1 right-card */
@@ -183,6 +182,10 @@ header a {
 .item-section1 span {
     text-transform: uppercase;
     font-weight: 400;
+}
+
+#appeal {
+    margin-top: 10px;
 }
 
 /* footer */
