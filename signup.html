@@ -52,25 +52,18 @@
     
     
         <section class="form-section">
-            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-                <h2>Sign up to join the Yankari Friends!</h2>
-                <label for="firstname">First Name</label>
-                <input id="firstname" name="first_name" type="text" required>
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
+                <h2 class="form-header">Sign up to join the Yankari Friends!</h2>
+                <label for="fname">First Name: </label>
+                <input id="firstname" name="first_name" type="text" placeholder="Enter firstname" class="input-text" required><br><br>
     
-                <label for="lastname">Last Name</label>
-                <input id="lastname" name="last_name" type="text" required>
+                <label for="lname">Last Name: </label>
+                <input id="lname" name="last_name" type="text" placeholder="Enter lastname" class="input-text" required><br><br>
     
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email_address" required>
+                <label for="email">Email Address: </label>
+                <input type="email" id="email" name="email_address" placeholder="Enter email address" class="input-text" required><br><br>
     
-                <label for="newsletter">Want only monthly newsletter</label>
-                <input type="radio" id="newsletter" name="receive_newsletter" value="newsletter" required>
-                <label for="activeroll">Want active roll at Yankari</label>
-                <input type="radio" id="activeroll" name="active_roll" value="activeroll" required>
-                <label for="none">No newsletter nor active roll</label>
-                <input type="radio" id="none" name="no_roll" value="none" required>
-    
-                <input class="interest-button" type="submit" value="Submit">
+                <input class="interest-button" type="submit" value="Sign Up">
             </form>
         </section>
     
