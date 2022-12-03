@@ -58,7 +58,7 @@ PLACEHOLDER FOR SCREENSHOT
 There was not enough time to fix the footer bug. The attempt was to make the footer stick to the bottom
 ## Deployment
 The site was deployed to GitHub pages.
-The link can be found in 
+The link can be found <a href="https://peterudu.github.io/preserving-yankari/" target="_blank">
 ## Credits
 <ul>
     <li>The photo images used on all the pages are from Pixabay This Open Source site</li>
