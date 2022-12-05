@@ -9,11 +9,12 @@ PLACEHOLDER FOR SCREENSHOT
 <ul>
     <li>Navigation Bar
         <ul>
-            <li>The navigation bar appears on all three pages, it is responsive and has links to the Logo, Home page, Gallery and Sign Up pages.</li>
+            <li>The navigation bar appears on all three pages, it is responsive and has links to the Logo, the Home page, the Gallery page and the Sign Up page.</li>
             <li>The navigation which is part of the header enables the site user to navigate from page to page without the need to return back to the previous page</li>
         </ul>
     </li>
-   <!-- ![navigationbar](https://peterudu.github.io/preserving-yankari/assets/images/screenshots/navigation.png) -->
+   ![navigationbar](https://github.com/peterudu/preserving-yankari/blob/main/assets/images/screenshots/navigationbar.png)
+   <!-- ![navigation bar](assets/images/screenshots/navigationbar.png) -->
     <li>Landing page hero image
         <ul>
         <li>The landing has a large hero image with animation which draws the attention of the user to the page.</li>
@@ -22,8 +23,8 @@ PLACEHOLDER FOR SCREENSHOT
     <li>Intro Yankari
         <ul>
             <li>The intro-yankari section introduces the user to the Yankari National park. It informs the user about the location of the park, its size, the flora and fauna, the history of the park as well as the threats it faces.</li>
-            <li>The user is also invited to link to the sign up page and join the supporters of the park. This information is useful for persons intrested in taking an active roll in supporting the park<li>
-        <ul>
+            <li>The user is also invited to link to the sign up page and join the supporters of the park. This information is useful for persons intrested in taking an active roll in supporting the park</li>
+        </ul>
     </li>
     <li>Footer
             <ul>
@@ -35,7 +36,7 @@ PLACEHOLDER FOR SCREENSHOT
         <ul>
             <li>The gallery shows the user porting images of what to see at the park</li>
             <li>It is useful to the user because he or she can see how beautiful and why they should vist or even support the park</li>
-        <ul>
+        </ul>
     </li>
     <li>Sign Up Page
         <ul>
@@ -51,7 +52,7 @@ PLACEHOLDER FOR SCREENSHOT
 ### Validator Testing
 <ul>
     <li>HTML - No errors were returned <a href="https://validator.w3.org/" target="_blank">W3C HTML Validator</a></li>
-    <li>HTML - No errors were returned <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validator</a></li> 
+    <li>CSS - No errors were returned <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validator</a></li> 
 </ul>
 
 ### Unfixed Bugs
