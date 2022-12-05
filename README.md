@@ -6,6 +6,7 @@ PLACEHOLDER FOR SCREENSHOT
 
 ## Features
 ### Existing Features
+  <img scr="/assets/images/screenshots/navigationbar.png">
 <ul>
     <li>Navigation Bar
         <ul>
@@ -13,8 +14,7 @@ PLACEHOLDER FOR SCREENSHOT
             <li>The navigation which is part of the header enables the site user to navigate from page to page without the need to return back to the previous page</li>
         </ul>
     </li>
-   <!-- ![navigationbar](https://github.com/peterudu/preserving-yankari/blob/main/assets/images/screenshots/navigationbar.png) -->
-    <img scr="/assets/images/screenshots/navigationbar.png">
+   
     <li>Landing page hero image
         <ul>
         <li>The landing has a large hero image with animation which draws the attention of the user to the page.</li>
