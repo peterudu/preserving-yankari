@@ -78,6 +78,7 @@ header a {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    padding-bottom: 30px;
 }
 
 #hero-image {
