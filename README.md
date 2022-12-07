@@ -6,11 +6,11 @@ Preserving Yankari is a site which seeks to maintain the existence of the Yankar
 ### Existing Features
 - Navigation Bar
     - The navigation bar appears on all three pages, it is responsive and has links to the Logo, the Home page, the Gallery page and the Sign Up page.
-    - The navigation which is part of the header enables the site user to navigate from page to page without the need to return back to the previous page
+    - The navigation which is part of the header enables the user to navigate from page to page without the need to return back to the previous page
 
     ![navigation bar](assets/images/screenshots/navigationbar.png)
 - Landing page hero image
-    - The landing page has a large hero image which showing the viewer what Yankari is, a wildlife park. 
+    - The landing page has a large hero image which shows the viewer what Yankari is, a wildlife park. 
     - The hero image with the animation immediately captures the attention of the user towards the site and makes them inquisitive for more.    
 
     ![landing page image](assets/images/screenshots/landing_page.png)
@@ -28,12 +28,14 @@ Preserving Yankari is a site which seeks to maintain the existence of the Yankar
 
     ![gallery images](assets/images/screenshots/gallery.png)
 - Sign Up Page
-    - This page enables users to sign up and join the Yankari park friends community. They can also opt to receive newsletters or become active members if they wish
+    - The sign up page has a submit form with validation which enables users to sign up and join the Yankari park friends community. 
+    - This allows the user to able to communicate and interact with the site.
 
    ![sign up page](assets/images/screenshots/signup.png) 
 ### Features To Be Implemented
  - A Future Idea
-    - Create a possibility for users comments and ideas to be integrated as part of a page.
+    - Create a section where comments and suggestions made by users are displayed as part of a page.
+    - A comments section would encourage users to participate in the further development of the site
 ## Testing
 ### Validator Testing
 - HTML
@@ -41,11 +43,22 @@ Preserving Yankari is a site which seeks to maintain the existence of the Yankar
 - CSS 
     - No errors were detected when tested with [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
 ### Unfixed Bugs
-There was not enough time to fix the footer bug. The attempt was to make the footer stick to the bottom
+- There was not enough time to fix the footer bug. The attempt was to make the footer stick to the bottom
 ## Deployment
-The site was deployed to GitHub pages.
-The link can be found <a href="https://peterudu.github.io/preserving-yankari/" target="_blank">
+- The site was deployed to GitHub pages. For the deployment the following steps are taken:
+    - In GitHub repository, navigate to the Settings tab
+    - From the left sidebar options select Pages and under Gihub Pages from source section drop-down menu, select the Master Branch
+    - c
+
+The live link to the hosted project is - 
+
+
 ## Credits
+### Content
+- The text content
+- The icons used in the footer section were sourced from [W3C CSS validator](https://jigsaw.w3.org/css-validator/) 
+### Media
+
 <ul>
     <li>The photo images used on all the pages are from Pixabay This Open Source site</li>
     <li>Information about Yankari were gathered from online articles from the World Wildlife Conservation and the Yankari Game Reserve Website</li>

@@ -104,7 +104,6 @@ header a {
     }
 }
 
-
 /* item-section1 */
 
 .right-card { grid-area: rightcard; }
@@ -225,18 +224,22 @@ footer {
 
 
 /* media queries */
-#pictures {
-    column-count: 3;
+
+/* For screen sizes from 950px below */
+@media screen and (max-width: 950px) {
+    #pictures {
+        column-count: 3;
+    }
 }
 
-/* for small screen sizes 800px and below */
+/* For smaller screen sizes 800px and below */
 @media screen and (max-width: 800px) {
     #pictures {
         column-count: 2;
     }
 }
 
-
+/* For smaller screen sizes 800px and below */
 @media screen and (max-width: 450px) {
     .right-card, .middle-card, .left-card {
     display: flex;
