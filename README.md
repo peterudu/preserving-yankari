@@ -66,4 +66,3 @@ The live link to the hosted project is - https://peterudu.github.io/preserving-y
 ### Media
 - All the photo images used for the site, namely the main hero image, photos in the intro-yankari section as well images in the gallery page were free source images from [pixabay](https://pixabay.com/).
 
-## Other General Project Advice
