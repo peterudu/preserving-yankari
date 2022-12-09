@@ -41,15 +41,17 @@ Preserving Yankari is a site which seeks to maintain the existence of the Yankar
 - I confirm that the form input fields were all tested and their validation check works.
 - I tested the website on Lighthouse for accessibility on moblie and desktop devices. For both devices the accessibility was over 90 percent.
 
-![lighthouse accessibility](/assets/images/screenshots/accessibility.png)
+![lighthouse accessibility](/assets/images/screenshots/lighthouse.png)
 
 ### Validator Testing
 - HTML
     - No errors were detected when tested with [W3C HTML validator](https://validator.w3.org/)
 - CSS 
     - No errors were detected when tested with [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
-### Unfixed Bugs
-- There was not enough time to fix the footer bug. The attempt was to make the footer stick to the bottom
+### Fixed Bug
+- I was able to solve the bug preventing me from placing the footer at the bottom of the pages in small screen sizen.
+### Unfixed Bug
+- I was unable to fix the bug preventing me from resizing the hero image when using small screens. 
 ## Deployment
 - The site was deployed to GitHub pages. For the deployment the following steps are taken:
     - In GitHub repository, navigate to the Settings tab
@@ -61,8 +63,8 @@ The live link to the hosted project is - https://peterudu.github.io/preserving-y
 ### Content
 - The text content about Yankari National Park particularly those used in the intro-yankari section were collected from online articles of [Yankari Game Reserve](https://yankarigamereserve.com.ng/about/), from the [Wildlife Conservation Soceity](https://nigeria.wcs.org/wild-places/yankari-game-reserve.aspx) and from [Wikipedia]()
 - The general structure and layout of the Home page was based on the use of examples of [CSS Grid](https://www.w3schools.com/css/css_grid.asp) and [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) models from W3schools.
-- The structure used to build the hero-image, the gallery page and the sign up page were partly oriented on examples illustrated on [Code Institute Love Running Project](https://code-institute-org.github.io/love-running-2.0/index.html) exercise. 
-- The icons used in the footer section were sourced from [W3C CSS validator](https://jigsaw.w3.org/css-validator/) 
+- The structure used to build the hero-image, the gallery page and the sign up page were based on examples illustrated on [Code Institute Love Running Project](https://code-institute-org.github.io/love-running-2.0/index.html) exercise. 
+- The icons used in the footer section were sourced from [Font Awesome](https://fontawesome.com/) 
 ### Media
 - All the photo images used for the site, namely the main hero image, photos in the intro-yankari section as well images in the gallery page were free source images from [pixabay](https://pixabay.com/).
 
