@@ -210,7 +210,6 @@ footer {
     color: #404040;
 }
 
-
 /* gallery */
 #pictures {
     clear: both;
@@ -227,35 +226,44 @@ footer {
 /* media queries */
 
 /* For screen sizes from 950px below */
-/* @media screen and (max-width: 950px) {
+@media screen and (max-width: 950px) {
     #hero-extern {
         height: 85vh;
         padding-bottom: 0px;
-    }
+    } 
 
     #hero-image {
         background-size: cover;
-    }
+    } 
 
     #pictures {
         column-count: 3;
     }
 
-    #hero-image {
+   #hero-image {
         width: 950px;
         background-size: cover;
     }
-} */
+} 
 
 /* For smaller screen sizes 800px and below */
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     #pictures {
         column-count: 2;
     }
-} */
+}
 
 /* For smaller screen sizes 450px and below */
 @media screen and (max-width: 450px) {
+    header {
+        height: inherit;
+    }
+
+    #menu {
+        letter-spacing: 2px;
+        padding: 10px;
+    } 
+
     .right-card, .middle-card, .left-card {
     display: flex;
     flex-direction: column;
@@ -264,40 +272,24 @@ footer {
     padding-left: 1em;
     padding-right: 1em;
     }
-
-    /* #hero-image {
-        background-size: contain;
-    } */
-
-    /* .right-card, .left-card, .middle-card{
-        flex-direction: column;
-        
-    } */
     
     .right-card .item, .left-card .item, .middle-card .item {
         max-width: 100%;
         margin: 20px 10px;
     }
 
-    /* .item-section1 br {
+    .item-section1 br {
         display: none;
-    } */
+    } 
 
-    /* .item-section1 p {
+    .item-section1 p {
         padding: 5px;
-    } */
+    } 
 
-    /* #menu {
+    #menu {
         line-height: 25px;
-    }  */
+    } 
 }
-
-/* @media screen and (max-width: 400px) {
-    .item-header {
-        height: 15vh;
-    }
-
-} */
 
 
 /* .form-section */
