@@ -32,8 +32,8 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    align-items: center;
-    padding: 2em;
+    padding: 1.1em;
+    height: 10vh;
 }
 
 header a {
@@ -72,7 +72,7 @@ header a {
     border-bottom: 1px solid #404040;
 }
 
-/* hero image and cover text*/
+/* hero image */
 
 #hero-extern {
     height: 85vh;
@@ -126,6 +126,7 @@ header a {
     font-weight: 400;
     display: block;
     text-align: center;
+    color: #000;
 }
 
 /* .item-section1 right-card */
@@ -227,8 +228,13 @@ footer {
 
 /* For screen sizes from 950px below */
 @media screen and (max-width: 950px) {
+    #hero-extern {
+        height: 85vh;
+        padding-bottom: 0px;
+    }
+
     #hero-image {
-        background-size: contain;
+        background-size: cover;
     }
 
     #pictures {
@@ -253,7 +259,40 @@ footer {
     padding-left: 1em;
     padding-right: 1em;
     }
+
+    #hero-image {
+        background-size: contain;
+    }
+
+    .right-card, .left-card, .middle-card{
+        flex-direction: column;
+        
+    }
+    
+    .right-card .item, .left-card .item, .middle-card .item {
+        max-width: 100%;
+        margin: 20px 10px;
+    }
+
+    .item-section1 br {
+        display: none;
+    }
+
+    .item-section1 p {
+        padding: 5px;
+    }
+
+    #menu {
+        
+    } 
 }
+
+/* @media screen and (max-width: 400px) {
+    .item-header {
+        height: 15vh;
+    }
+
+} */
 
 
 /* .form-section */
